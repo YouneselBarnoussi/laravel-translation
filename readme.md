@@ -1,3 +1,28 @@
+## This is a PHP 8 compatible fork
+> from [joedixon/laravel-translation](https://github.com/joedixon/laravel-translation) wich is abandoned
+## How to use this fork instead of the original?
+on `composer.json` add
+```
+...
+"repositories": [
+  {
+    "type": "vcs",
+    "url": "git@github.com:eduPHP/laravel-translation.git"
+  }
+],
+...
+```
+and then, change your version tag on the `joedixon/laravel-translation` dependency
+```
+...
+"require": {
+ ...
+    "joedixon/laravel-translation": "^1.2.0",
+ ...
+}
+...
+```
+
 <div align="center">
   
 ![Laravel Translation](logo.png)
